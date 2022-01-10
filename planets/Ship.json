@@ -1,0 +1,40 @@
+{
+    "name" : "The Astroneer's Shuttle",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 256,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 1100,
+        "inclination" : 0,
+        "primaryBody" : "Sylva",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 346,
+        "argumentOfPeriapsis": 0
+    },
+    "Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path" : "Assets/AstroneerAssetBundles/AstroneerShuttle.prefab",
+                "scale" : 40
+            }
+        ]
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Shuttle", "audioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 5, "identificationRadius" : 10}		
+        ]
+	}
+}

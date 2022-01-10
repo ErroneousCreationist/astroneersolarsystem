@@ -1,0 +1,44 @@
+{
+    "name" : "Calidor",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 325,
+        "surfaceGravity" : 12.9,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 7500,
+        "inclination" : 0,
+        "primaryBody" : "Sol",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 50,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "Calidor Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "SourceRadius" : 100, "identificationRadius" : 340, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Calidor-Height.png",
+		"textureMap" : "planets/Assets/Calidor-Tex.png",
+		"minHeight" : 320,
+		"maxHeight" : 355
+	},
+	"Atmosphere" :
+	{
+		"size" : 360,
+		"fogSize" : 360,
+		"fogTint" : {"r" : 255, "g" : 227, "b" : 166, "a" : 255},
+		"fogDensity" : 0.7
+	}
+}

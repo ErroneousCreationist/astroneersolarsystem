@@ -1,0 +1,52 @@
+{
+    "name" : "Glacio",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 260,
+        "surfaceGravity" : 12.5,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 12000,
+        "inclination" : 0,
+        "primaryBody" : "Sol",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 183,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ 
+                "Frequency" : "Default", 
+                "Name" : "Glacio Gateway Engine", 
+                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+                "SourceRadius" : 100, 
+                "identificationRadius" : 270, 
+                "position" : {"x" : 0, "y" : 0, "z" : 0}
+            }		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Glacio-Height.png",
+		"textureMap" : "planets/Assets/Glacio-Tex.png",
+		"minHeight" : 235,
+		"maxHeight" : 280
+	},
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"fogSize" : 300,
+		"fogTint" : {"r" : 240, "g" : 240, "b" : 240, "a" : 255},
+		"fogDensity" : 0.45,
+        "hasSnow" : true
+	}
+}

@@ -1,0 +1,51 @@
+{
+    "name" : "Desolo",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 125,
+        "surfaceGravity" : 9,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 1600,
+        "inclination" : 0,
+        "primaryBody" : "Sylva",
+        "isMoon" : true,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 15,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ 
+                "Frequency" : "Default", 
+                "Name" : "Desolo Gateway Engine", 
+                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+                "SourceRadius" : 80, 
+                "identificationRadius" : 140, 
+                "position" : {"x" : 0, "y" : 0, "z" : 0}
+            }		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Desolo-Height.png",
+		"textureMap" : "planets/Assets/Desolo-Height.png",
+		"minHeight" : 120,
+		"maxHeight" : 155
+	},
+	"Atmosphere" :
+	{
+		"size" : 150,
+		"fogSize" : 150,
+		"fogTint" : {"r" : 189, "g" : 189, "b" : 189, "a" : 255},
+		"fogDensity" : 0.15
+	}
+}

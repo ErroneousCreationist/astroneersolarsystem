@@ -1,0 +1,44 @@
+{
+    "name" : "Atrox",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 260,
+        "surfaceGravity" : 13,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 6000,
+        "inclination" : 0,
+        "primaryBody" : "Sol",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 3,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "Atrox Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "SourceRadius" : 100, "identificationRadius" : 270, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Atrox-Height.png",
+		"textureMap" : "planets/Assets/Atrox-Tex.png",
+		"minHeight" : 250,
+		"maxHeight" : 280
+	},
+	"Atmosphere" :
+	{
+		"size" : 340,
+		"fogSize" : 340,
+		"fogTint" : {"r" : 90, "g" : 128, "b" : 37, "a" : 255},
+		"fogDensity" : 0.7
+	}
+}

@@ -1,0 +1,50 @@
+{
+    "name" : "Sol",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 1750,
+        "surfaceGravity" : 28,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+		"centerOfSolarSystem" : true
+    },
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+				"assetBundle" : "planets/astroneer",
+			 	"path" : "Assets/AstroneerAssetBundles/GatwayPortal.prefab", 
+				"scale" : 10, 
+				"position" : {"x" : 0, "y" : 0, "z" : -3250},
+				"alignToNormal" : true
+			}
+        ]
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "SourceRadius" : 10, "identificationRadius" : 50, "position" : {"x" : 0, "y" : 0, "z" : -3250}}		
+        ]
+	},
+	"Star" :
+	{
+		"size" : 1750,
+		"tint" : 
+		{
+			"r" : 227,
+			"g" : 255,
+			"b" : 250,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 227,
+			"g" : 255,
+			"b" : 250,
+			"a" : 0
+		}
+	}
+}

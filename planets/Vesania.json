@@ -1,0 +1,51 @@
+{
+    "name" : "Vesania",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 250,
+        "surfaceGravity" : 11.6,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 10000,
+        "inclination" : 0,
+        "primaryBody" : "Sol",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 93,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ 
+                "Frequency" : "Default", 
+                "Name" : "Vesania Gateway Engine", 
+                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+                "SourceRadius" : 100, 
+                "identificationRadius" : 260, 
+                "position" : {"x" : 0, "y" : 0, "z" : 0}
+            }		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Vesania-Height.png",
+		"textureMap" : "planets/Assets/Vesania-Tex.png",
+		"minHeight" : 230,
+		"maxHeight" : 274
+	},
+	"Atmosphere" :
+	{
+		"size" : 315,
+		"fogSize" : 315,
+		"fogTint" : {"r" : 98, "g" : 0, "b" : 255, "a" : 255},
+		"fogDensity" : 0.7
+	}
+}

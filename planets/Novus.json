@@ -1,0 +1,51 @@
+{
+    "name" : "Novus",
+    "starSystem" : "Socialist.AstroneerSystem",
+    "Base" : 
+    {
+        "surfaceSize" : 140,
+        "surfaceGravity" : 10.5,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true
+    },
+	"Orbit" : 
+    {
+        "semiMajorAxis" : 1700,
+        "inclination" : 0,
+        "primaryBody" : "Vesania",
+        "isMoon" : true,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+		"trueAnomaly" : 67,
+        "argumentOfPeriapsis": 0
+    },
+    "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ 
+                "Frequency" : "Default", 
+                "Name" : "Novus Gateway Engine", 
+                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+                "SourceRadius" : 80, 
+                "identificationRadius" : 140, 
+                "position" : {"x" : 0, "y" : 0, "z" : 0}
+            }		
+        ]
+	},
+	"Heightmap" :
+	{
+		"heightMap" : "planets/Assets/Novus-Height.png",
+		"textureMap" : "planets/Assets/Novus-Tex.png",
+		"minHeight" : 125,
+		"maxHeight" : 165
+	},
+	"Atmosphere" :
+	{
+		"size" : 175,
+		"fogSize" : 175,
+		"fogTint" : {"r" : 184, "g" : 84, "b" : 255, "a" : 255},
+		"fogDensity" : 0.4
+	}
+}
