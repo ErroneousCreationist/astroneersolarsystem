@@ -3,7 +3,7 @@
   "author": "ErroneousCreationist",
   "name": "Astroneer Solar System",
   "uniqueName": "ErroneousCreationist.astroneersolarsystem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "owmlVersion": "2.1.0",
   "dependencies": [
     "xen.NewHorizons"

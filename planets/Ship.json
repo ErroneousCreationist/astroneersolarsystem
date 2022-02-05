@@ -1,5 +1,5 @@
 {
-    "name" : "The Astroneer's Shuttle",
+    "name" : "Small Shuttle",
     "starSystem" : "Socialist.AstroneerSystem",
     "Base" : 
     {
@@ -26,7 +26,7 @@
             {
                 "assetBundle" : "planets/astroneer",
                 "path" : "Assets/AstroneerAssetBundles/AstroneerShuttle.prefab",
-                "scale" : 40
+                "scale" : 200
             }
         ]
     },
