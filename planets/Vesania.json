@@ -17,7 +17,7 @@
         "isTidallyLocked" : false,
         "longitudeOfAscendingNode" : 0,
         "eccentricity" : 0,
-		"trueAnomaly" : 93,
+		"trueAnomaly" : 121,
         "argumentOfPeriapsis": 0
     },
     "Signal" : 
